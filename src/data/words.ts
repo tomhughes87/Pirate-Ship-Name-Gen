@@ -95,7 +95,9 @@ const midWord: string[] =
         "Rusty",
         "Battered",
         "Bloody",
-        "leaky",
+        "Leaky",
+        "Bruised",
+
 
         //feelings:
         "Jolly",
@@ -135,17 +137,19 @@ const midWord: string[] =
         "Useless",
         "Brave",
         "Shy",
-
+        "Sweet",
+        
 
 
     ]
-;
+    ;
 
-const mainWord: string []=
+    const mainWord: string []=
     [
         "Adventure",
         "Assualt",
         "American",
+        "Ascent",
         
         "Breeze",
         "Bully",
@@ -155,6 +159,7 @@ const mainWord: string []=
         "Crow",
         "Crusher",
         
+        "Downfall",
         "Descent",
         "Dutchman",
         "Dane",
@@ -163,6 +168,8 @@ const mainWord: string []=
         "Delight",
         "Defeat",
         "Destroyer",
+
+        "Englishman",
         
         "Fall",
         "Fancy",
@@ -186,11 +193,14 @@ const mainWord: string []=
 
         "Pride",
         "Pearl",
+        "Pirate",
+        "Pirates",
+        "Privateers",
+        "Privateer",
+        "Paddy",
         
-        "Downfall",
+        
         "Rise",
-        "Ascent",
-
         "Rage",
         "Revenge",
         "Regret",
