@@ -44,7 +44,10 @@ export default function GeneratorFunc():JSX.Element {
 
     }
 
-
+// copyButton1(){
+//   const copyWord = `${input1.value} ${input2.value} ${input3.value}`
+//   copyToClipboard(copyWord)
+// }
 
 
   return (
