@@ -32,7 +32,8 @@ input{
 #fakeModal{
   background-color: #000000;
   width: 65%;
-  height: 585px;
+  /* height: 500px; */
+  height: fit-content;
   padding: 1%;
   border-radius: 20px;
   /* margin-top: 30%; */

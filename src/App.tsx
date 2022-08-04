@@ -10,6 +10,7 @@ import MainWord from './components/MainWord/MainWord';
 import Logo from './components/Logo/Logo';
 import Menu from './components/Menu/Menu';
 import Helper from './components/Help';
+import Tip from './components/Tip';
 
 
 
@@ -38,21 +39,21 @@ function App() {
           <MainWord />
         </div>
 
-        
-          <br/>
+
+          {/* <br/> */}
           {/* <br/> */}
         <p id="Method"> ~ OR ~ </p>  
           {/* <br/> */}
-          <br/>
+          {/* <br/> */}
         <div id='dashedBoxLower'>
         {/* <p id="Method">Method 2:</p>   */}
           <GeneratorFunc />
-          <br/>
+          {/* <br/> */}
         </div>
-      <br/>
+      {/* <br/> */}
       <br/>
       <Helper />
-      
+      <Tip />
       </div>
       </header>
     </div>

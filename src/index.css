@@ -16,7 +16,7 @@ code {
   border-radius: 5px;
   border-color: rgb(60, 78, 23);
   border-style: dashed;
-  border-width: 4px;
+  border-width: 2px;
   /* margin: 50px; */
   padding: 1%;
   /* display: flex;
@@ -30,7 +30,7 @@ code {
 #dashedBoxLower{
   border-radius: 5px;
   border-color: rgb(60, 78, 23);
-  border-width: 4px;
+  border-width: 2px;
 
   border-style: dashed;
   padding: 1%;
