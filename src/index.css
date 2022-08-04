@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#dashedBox{
+  border-radius: 5px;
+  border-color: rgb(60, 78, 23);
+  border-style: dashed;
+  /* margin: 50px; */
+  padding: 1%;
+  /* display: flex;
+  flex-direction: row; */
+
+  display: inline-flex;
+}
+
+#dashedBoxLower{
+  border-radius: 5px;
+  border-color: rgb(60, 78, 23);
+  border-style: dashed;
+  /* margin: 50px; */
+  padding: 1%;
+  /* display: flex;
+  flex-direction: row; */
+  width: 800px;
+  /* display: inline-flex; */
+  
+
+}
+
