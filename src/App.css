@@ -5,6 +5,8 @@
 
 
 .App-header {
+  background-image: url('Sea-of-Thieves-Season-7-BG.jpeg');
+  background-size: cover;
   background-color: #000000;
   min-height: 100vh;
   display: flex;
@@ -25,4 +27,30 @@ input{
   font-family: 'IM Fell English SC', Gill Sans;
   /* display: contents   ; */
   border-color: #00f89e;
+}
+
+#fakeModal{
+  background-color: #000000;
+  width: 65%;
+  height: 585px;
+  padding: 1%;
+  border-radius: 20px;
+  /* margin-top: 30%; */
+}
+
+#Method{
+  /* color:  #00f89e; */
+  /* position: fixed; */
+  color:  #00f89dae;  
+  /* text-align: center; */
+  font-size: medium;
+  /* border-radius: 5px; */
+  font-family: 'IM Fell English SC', Gill Sans;
+  padding: 1%;
+  /* margin-top: -30px; */
+  /* margin: 5px; */
+  /* background-color: #000;
+  height: 15px;
+  width: 80px; */
+  
 }

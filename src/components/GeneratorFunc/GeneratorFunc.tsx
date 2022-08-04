@@ -48,10 +48,14 @@ export default function GeneratorFunc():JSX.Element {
 
   return (
     <>
+      {/* <p id="Method">Method 2:</p> */}
       <div id='bottomBox'>
-        <p id='CompletelyRandomName'>{completelyRandom}</p>
-        <button onClick={getRandFull}>Completely Random</button>
+        {/* <br/> */}
+        {/* <p id='CompletelyRandomName'>{completelyRandom}</p> */}
+        <input type="text" id='CompletelyRandomName' value={completelyRandom} onChange={event=> setCompletelyRandom(event.target.value)}/>
       </div>
+        <button onClick={getRandFull}>Completely Random</button>
+        <br/>
     </>
   )
 }

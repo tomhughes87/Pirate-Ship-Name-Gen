@@ -18,9 +18,5 @@ button{
     border-radius: 5px;
     font-family: 'IM Fell English SC', Gill Sans;
     padding: 1%;
-}
-
-#bottomBox{
-
-    /* width: 80%  ; */
+    margin: 5px;
 }

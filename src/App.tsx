@@ -21,39 +21,39 @@ function App() {
 
   return (
     <div className="App">
+
       <header className="App-header">
-
-        {/* <img src={logo1} className="App-logo" alt="logo" /> */}
-
-        {/* <Menu /> */}
+      
+      <div id="fakeModal">
         <ShipName />
-        <Logo />
-
-        
+        <Logo />  
         <br/>
-        
+    
+        <br/>
+          
         <div id='dashedBox'>
+          {/* <p id="Method">Method 1:</p> */}
           <FirstWord />
-          {/* <br/> */}
           <MidWord />
-          {/* <br/> */}
           <MainWord />
-          {/* <br/> */}
         </div>
-        <Helper />
-          <br/>
+
+        
           <br/>
           {/* <br/> */}
-
-
+        <p id="Method"> ~ OR ~ </p>  
+          {/* <br/> */}
+          <br/>
         <div id='dashedBoxLower'>
+        {/* <p id="Method">Method 2:</p>   */}
           <GeneratorFunc />
           <br/>
-
         </div>
-
-
-
+      <br/>
+      <br/>
+      <Helper />
+      
+      </div>
       </header>
     </div>
   );
