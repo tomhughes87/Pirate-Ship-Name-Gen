@@ -11,6 +11,7 @@
     height: 50%;
     margin-left: 1px;
     margin-right: 1px;
+    padding-left: 13px ;
 }
 
 form{
@@ -73,6 +74,7 @@ input{
     }
     #btn-randWord{
         font-size: small;
+        content: "&#62;";
     }
 
     
@@ -93,11 +95,13 @@ input{
 @media only screen and (min-width: 600px) {
     #ScaledTextBox{
         font-size: large;
+        
     }
     #Prefixes{
         font-size: large;
     }  
 }
+
 
 
 

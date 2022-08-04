@@ -21,10 +21,41 @@ export default function SelectWordByWord():JSX.Element {
       setTheMainWord (mainWord[Math.floor(Math.random()*mainWord.length)]  )
   }
 
+  // const getFirstWord = document.getElementById("Prefixes")
+  // //copy
+  // copyButton1(){
+  //   // if (typeof getFirstWord === HTMLElement){
+  //   const copyWord = `${middleWord} ${theMainWord}`
+  //   copyToClipboard(copyWord)
+  // }
 
+  function copyFunc1() {
+    /* Get the first things from drop down */
+    let copyFirstWord = document.getElementById("Prefixes");
+    copyFirstWord = copyFirstWord!.options[copyFirstWord!.selectedIndex].text 
+    
+    
+
+
+  navigator.clipboard.writeText(copyFirstWord);
+
+  // var ecopyText= document.getElementById("ddlViewBy");
+// var value = e.value;
+// var text = ;
+    /* Select the text field */
+    // copyText!.select();
+    // copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  
+     /* Copy the text inside the text field */
+    // navigator.clipboard.writeText(copyText.value);
+  
+    /* Alert the copied text */
+    // alert("Copied the text: " + copyText.value);
+  }
 
   return (
-    <form >
+<>
+  <form >
       {/* FIRST WORD */}
       {/* <label for="Prefixes">Prefixes</label> */}
       <select id="Prefixes" name="Prefixes" className='firstPart' defaultValue={"The"}>
@@ -50,5 +81,8 @@ export default function SelectWordByWord():JSX.Element {
         <button id="btn-randWord" onClick={getRandMain}>Random</button>
       </div>
     </form>
+
+    <button id="btn-copy" onClick={copyFunc1}>copy</button>
+</>
   )
 }
