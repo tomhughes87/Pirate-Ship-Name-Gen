@@ -58,3 +58,33 @@ input{
   width: 80px; */
   
 }
+
+
+@media only screen and (max-width: 600px) {
+  .App {
+   zoom: 130%;
+   
+  } 
+  #fakeModal{
+    background-color: #000000;
+    background-position-x: center;
+    opacity: 0.9;
+    width: 85%;
+    /* height: 500px; */
+    height: fit-content;
+    padding: 1%;
+    border-radius: 20px;
+
+    margin-top: 3px;
+  }
+  .App-header{
+    min-height: 80vh;
+  }
+  #Method{
+    font-size: x-small;
+    margin: 3px;
+
+  }
+
+}
+ 
