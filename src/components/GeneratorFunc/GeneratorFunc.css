@@ -19,4 +19,62 @@ button{
     font-family: 'IM Fell English SC', Gill Sans;
     padding: 1%;
     margin: 5px;
+    /* min-width: 240px; */
+    width: 40%;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    button{
+        font-size: small;
+    }
+
+    #CompletelyRandomName{
+        /* background-color: #e31515; */
+        /* color:  #00f89e;
+        text-align: center; */
+        font-size: medium;
+        
+        width: 160px;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    button{
+         font-size: large;
+    }
+    #CompletelyRandomName{
+        /* background-color: #e31515; */
+        /* color:  #00f89e;
+        text-align: center; */
+        font-size: large;
+
+        width: 270px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    button{
+        font-size: large;
+   }
+   #CompletelyRandomName{
+    /* background-color: #e31515; */
+    /* color:  #00f89e;
+    text-align: center; */
+    font-size: x-large;
+
+    /* width: 40px; */
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

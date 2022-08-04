@@ -24,13 +24,16 @@ input{
   text-align: center;
   font-size: x-large;
   border-radius: 5px;
+  border-width: 1px;
   font-family: 'IM Fell English SC', Gill Sans;
   /* display: contents   ; */
-  border-color: #00f89e;
+  /* border-color: #00f89e; */
+  border-color: #00f89d83;
 }
 
 #fakeModal{
   background-color: #000000;
+  opacity: 0.9;
   width: 65%;
   /* height: 500px; */
   height: fit-content;

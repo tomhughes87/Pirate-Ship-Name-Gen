@@ -22,7 +22,7 @@ export default function GeneratorFunc():JSX.Element {
       const [randomMidWord,setRandomMidWord] = useState(midWord[Math.floor(Math.random()*midWord.length)])
       const [randomMainWord,setRandomMainWord] = useState(mainWord[Math.floor(Math.random()*mainWord.length)])
 
-      const [completelyRandom,setCompletelyRandom] = useState( `${randomStartWord} ${randomMidWord} ${randomMainWord}`)
+      const [completelyRandom,setCompletelyRandom] = useState( `${randomStartWord} ${randomMainWord}`)
 
 
       function getRandFull(e:any):void {
@@ -33,14 +33,15 @@ export default function GeneratorFunc():JSX.Element {
         setRandomMidWord(midWord[Math.floor(Math.random()*midWord.length)]);
         setRandomMainWord(mainWord[Math.floor(Math.random()*mainWord.length)]);
 
-        setCompletelyRandom(`${randomStartWord} ${randomMidWord}  ${randomMainWord}`)
+        const lenChecker = `${randomStartWord} ${randomMidWord} ${randomMainWord}`
+        if (lenChecker.length > 20){
+          console.log(completelyRandom,"is too long at: ",completelyRandom.length )
+          setCompletelyRandom(`${randomStartWord} ${randomMainWord}`)
+        }
+        else {
+          setCompletelyRandom(`${randomStartWord} ${randomMidWord} ${randomMainWord}`)
+        }
 
-        // randomStartWord = startWord[Math.floor(Math.random()*startWord.length)]
-        // randomMainWord = mainWord[Math.floor(Math.random()*mainWord.length)]
-        // randomMidWord = midWord[Math.floor(Math.random()*midWord.length)]
-  
-        // CompletelyRandom = `${randomStartWord} ${randomMidWord} ${randomMainWord}`
-        // CompletelyRandom   (mainWord[Math.floor(Math.random()*mainWord.length)]  )
     }
 
 

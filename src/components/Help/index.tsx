@@ -3,6 +3,6 @@ import './styles.css'
 
 export default function Helper() {
   return (
-    <p id='helper'>You can click to edit text of delete it completely!</p>
+    <p id='helper'>Type in the boxes or get random words!</p>
   )
 }

@@ -14,36 +14,65 @@ code {
 
 #dashedBox{
   border-radius: 5px;
-  border-color: rgb(60, 78, 23);
+  border-color: #00f89d4a;
   border-style: dashed;
   border-width: 2px;
-  /* margin: 50px; */
   padding: 1%;
-  /* display: flex;
-  flex-direction: row; */
-
-  display: inline-flex;
-  display: flexbox;
-  flex-direction: row;
+  display: inline-flexbox;
+  /* width: 350px; */
+  margin: 0 auto;
+  /* margin-left: 20%; */
+  /* margin-right  : 20%; */
 }
 
 #dashedBoxLower{
   border-radius: 5px;
-  border-color: rgb(60, 78, 23);
-  border-width: 2px;
-
+  border-color: #00f89d4a;
   border-style: dashed;
+  border-width: 2px;
   padding: 1%;
-  /* display: flex;
-  flex-direction: row; */
-  /* width: 800px; */
-  /* width: fit-content; */
-width: auto;
-margin-left: 20%;
-margin-right  : 20%;
-  /* margin-right: 50%; */
-  /* display: inline-flex; */
-
-
+  width: auto;
+  margin-left: 20%;
+  margin-right  : 20%;
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #dashedBox{
+    width: 90%;
+  }
+
+  #dashedBoxLower{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #dashedBox{
+    width: 80%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #dashedBox{
+    width: 85%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  
+  #dashedBox{
+  width: 550px;
+  padding: 5px;
+}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  #dashedBox{
+    width: 750px;
+  }
+} */

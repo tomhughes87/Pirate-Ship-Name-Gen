@@ -23,21 +23,21 @@ const startWord: string []=
         "The",  
         "The",
 
-        "H.M.S",
-        "H.M.S",
-        "H.M.S",
-        "H.M.S",
-        "H.M.S",
+        "HMS",
+        "HMS",
+        "HMS",
+        "HMS",
+        "HMS",
 
-        "C.S.S",
-        "S.M.S",
-        "H.M.A.S",
-        "H.B.M.S",
-        "R.F.A",
-        "K.D.M",
-        "K.N.M",
-        "N.M.S",
-        "H.N.L.M.S",
+        "CSS",
+        "SMS",
+        // "H.M.A.S",
+        // "H.B.M.S",
+        "RFA",
+        "KDM",
+        "KNM",
+        "NMS",
+        // "H.N.L.M.S",
     ]
 
 const midWord: string[] =
@@ -48,6 +48,8 @@ const midWord: string[] =
         "Pricess's",
         "Prince's",
         "Footman's",
+        "Begger's",
+        "Emperor's",
 
         "Captian's",
         "Admiral's",
@@ -57,6 +59,8 @@ const midWord: string[] =
         "Watchmen's",
         "Skipper's",
         "Crewmate's",
+        "Gunner's",
+        "Loader's",
 
         "Bachelor’s",
         "Widower’s",
@@ -71,11 +75,19 @@ const midWord: string[] =
 
         //Gods
         "God's",
+        "Godly",
+        "Pious",
         "Angel's",
         "Zues's",
         "Neptune's",
         "Poseidon's",
         "Gabriel's",
+        "Devil's",
+        "Devilish",
+        "Sinner's",
+        "Pope's",
+
+
 
         
         //mosters & myths
@@ -96,7 +108,12 @@ const midWord: string[] =
         "Battered",
         "Bloody",
         "Leaky",
+        "Flaoting",
+        "Leaking",
         "Bruised",
+        "Sinking",
+        "Broken",
+        "Swift",
 
 
         //feelings:
@@ -111,19 +128,23 @@ const midWord: string[] =
         "Calm",
         "Agressive",
         "Depressed",
+        "Depressing",
         "Lost",
         "Confused",
         "Tired",
+        
+        "Scurvy ",
 
 
         //place + country:
         
-        "London",
-        "Liverpool",
+        "Londoner's",
+        "Liverpool's",
         "English",
         "Irish",
         "Scottish",
         "Welsh",
+        "Italian",
 
         // directionaly:
         "Southern",
@@ -138,6 +159,16 @@ const midWord: string[] =
         "Brave",
         "Shy",
         "Sweet",
+
+        //material
+        "Wooden",
+        "Silver",
+        "Stone",
+
+        "Rum-Filled",
+        "Grog-Filled",
+
+        "Fat",
         
 
 
@@ -155,9 +186,11 @@ const midWord: string[] =
         "Bully",
         "Bill",
         "Bounty",
+        "Bucket",
         
         "Crow",
         "Crusher",
+        "Coffin",
         
         "Downfall",
         "Descent",
@@ -168,6 +201,7 @@ const midWord: string[] =
         "Delight",
         "Defeat",
         "Destroyer",
+        "Dog",
 
         "Englishman",
         
@@ -183,6 +217,7 @@ const midWord: string[] =
         "Hunter",
 
         // "Mist",
+        "Landlubber",
 
         "Outrage",
         
@@ -214,6 +249,7 @@ const midWord: string[] =
         "Seafarer",
         "Spaniard",
         "Scott",
+        "Seadog",
 
         "Trident",
         "Thorn",

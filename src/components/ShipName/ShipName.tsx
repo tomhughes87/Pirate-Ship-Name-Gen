@@ -1,6 +1,6 @@
 import React from 'react'
 // import { mainWord } from '../../data/words'
-import MainWord from '../MainWord/MainWord'
+
 // import FirstWord from '../FirstWord/FirstWord'
 import './ShipName.css'
 
@@ -11,10 +11,7 @@ export default function ShipName() {
 
   return (
     <>
-    <div id='ShipName'>Ship Name Generator</div>
-    {/* <div>here:{firstWord}</div> */}
-
-    
+    <div id='ShipName'>Ship Name Generator</div>    
     </>
   )
 }

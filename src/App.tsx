@@ -3,56 +3,58 @@ import React from 'react';
 import './App.css';
 import logo1 from './images./logo1.png';
 import GeneratorFunc from './components/GeneratorFunc/GeneratorFunc';
-import FirstWord from './components/FirstWord/FirstWord';
 import ShipName from './components/ShipName/ShipName';
-import MidWord from './components/MidWord/MidWord';
-import MainWord from './components/MainWord/MainWord';
 import Logo from './components/Logo/Logo';
-import Menu from './components/Menu/Menu';
 import Helper from './components/Help';
 import Tip from './components/Tip';
+import SelectWordByWord from './components/SelectWordByWord';
 
 
-
+//delete this later
+import { midWord,mainWord } from './data/words';
 
 function App() {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 </style>
+console.log("Amount of midWords:",midWord.length);
+console.log("Amount of mainWords:",mainWord.length);
 
   return (
     <div className="App">
 
       <header className="App-header">
       
+      
       <div id="fakeModal">
+      
+        <Logo />    
         <ShipName />
-        <Logo />  
-        <br/>
+        <Helper />
     
         <br/>
           
-        <div id='dashedBox'>
-          {/* <p id="Method">Method 1:</p> */}
+        {/* <div id='dashedBox'>
           <FirstWord />
           <MidWord />
           <MainWord />
-        </div>
+        </div> */}
 
+        <div id='dashedBox'>
+          <SelectWordByWord />          
+        </div>
 
           {/* <br/> */}
           {/* <br/> */}
         <p id="Method"> ~ OR ~ </p>  
-          {/* <br/> */}
-          {/* <br/> */}
+    
         <div id='dashedBoxLower'>
-        {/* <p id="Method">Method 2:</p>   */}
+      
           <GeneratorFunc />
-          {/* <br/> */}
+          
         </div>
-      {/* <br/> */}
+      
       <br/>
-      <Helper />
       <Tip />
       </div>
       </header>
