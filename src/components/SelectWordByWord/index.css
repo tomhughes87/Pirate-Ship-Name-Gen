@@ -74,6 +74,7 @@ input{
     }
     #btn-randWord{
         font-size: small;
+        
         content: "&#62;";
     }
 
@@ -91,6 +92,61 @@ input{
 }
 
 
+#btn-copy{
+        /* position: absolute; */
+        /* right: 1px; */
+        
+        /* align-self: flex-end; */
+        border-radius: 0%;
+        border-style: none;
+        align-self: center;
+        background-image: url('copy-icon.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position-x: center;
+        background-position-y: center;
+        width: 20px;
+        height: 20px;
+        padding-left: 2px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    #btn-copy:focus{
+        animation-name: copy-Btn-click;
+        animation-duration: 4s;
+    }
+
+    @keyframes copy-Btn-click {
+        0% { background-color: #000000;}
+        100% { background-color: #00f89e;; }
+        /* background-color: #000000;
+        color:  #00f89e; */
+      }
+
+    #DisplayAndCopy{
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+        height: 47px;
+        /* margin-top: -20ox; */
+        /* margin-bottom: -200ox; */
+    }
+
+    #DisplayText{
+        color:  #00f89e;
+        text-align: center;
+        font-size: medium;
+        align-self: center;
+
+        /* border-radius: 7px; */
+        font-family: 'IM Fell English SC', Gill Sans;   
+    }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     #ScaledTextBox{
@@ -100,7 +156,11 @@ input{
     #Prefixes{
         font-size: large;
     }  
+    #DisplayText{
+        font-size: medium;
+    }
 }
+
 
 
 
@@ -112,6 +172,9 @@ input{
         width: 80%;
       }
     #Prefixes{
+        font-size: x-large;
+    }
+    #DisplayText{
         font-size: x-large;
     }
 }
@@ -126,3 +189,4 @@ input{
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
+

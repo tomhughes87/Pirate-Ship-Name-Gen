@@ -49,6 +49,12 @@ export default function GeneratorFunc():JSX.Element {
 //   copyToClipboard(copyWord)
 // }
 
+function copyFunc2() {
+
+navigator.clipboard.writeText(`${randomStartWord} ${randomMidWord} ${randomMainWord}`);
+
+}
+
 
   return (
     <>
@@ -56,10 +62,11 @@ export default function GeneratorFunc():JSX.Element {
       <div id='bottomBox'>
         {/* <br/> */}
         {/* <p id='CompletelyRandomName'>{completelyRandom}</p> */}
-        <input type="text" id='CompletelyRandomName' value={completelyRandom} onChange={event=> setCompletelyRandom(event.target.value)}/>
+        <input type="text" id='CompletelyRandomName' maxLength={20} value={completelyRandom} onChange={event=> setCompletelyRandom(event.target.value)}/>
       </div>
-        <button onClick={getRandFull}>Completely Random</button>
+        <button className='CompletelyRandomBtn' onClick={getRandFull}>Completely Random</button>
         <br/>
+        <button id="btn-copy" onClick={copyFunc2}> </button>
     </>
   )
 }

@@ -6,6 +6,12 @@ import { useState } from 'react'
 
 export default function SelectWordByWord():JSX.Element {
 
+  //FIRST WORD
+  let [theFirstWord,setTheFirstWord]= useState("The")
+  // function HandleDropDown() {
+  //   let copyFirstWord = (document.getElementById("Prefixes") as HTMLInputElement).value
+  //   setTheFirstWord(copyFirstWord)
+  // }
 
   // MID WORD
   let [middleWord,setMiddleWord]= useState(midWord[Math.floor(Math.random()*midWord.length)])
@@ -31,13 +37,14 @@ export default function SelectWordByWord():JSX.Element {
 
   function copyFunc1() {
     /* Get the first things from drop down */
-    let copyFirstWord = document.getElementById("Prefixes");
-    copyFirstWord = copyFirstWord!.options[copyFirstWord!.selectedIndex].text 
-    
+    // let copyFirstWord = (document.getElementById("Prefixes") as HTMLInputElement).value
+    // console.log(copyFirstWord)
+    // copyFirstWord = copyFirstWord.options[copyFirstWord.selectedIndex].text 
+
     
 
 
-  navigator.clipboard.writeText(copyFirstWord);
+  navigator.clipboard.writeText(`${theFirstWord} ${middleWord} ${theMainWord}`);
 
   // var ecopyText= document.getElementById("ddlViewBy");
 // var value = e.value;
@@ -58,7 +65,7 @@ export default function SelectWordByWord():JSX.Element {
   <form >
       {/* FIRST WORD */}
       {/* <label for="Prefixes">Prefixes</label> */}
-      <select id="Prefixes" name="Prefixes" className='firstPart' defaultValue={"The"}>
+      <select id="Prefixes" name="Prefixes" className='firstPart' defaultValue={"The"} onChange={event=>setTheFirstWord(event.target.value)}>
           <option value=""></option>
           <option value="The">The</option>
           <option value="HMS">HMS</option>
@@ -82,7 +89,10 @@ export default function SelectWordByWord():JSX.Element {
       </div>
     </form>
 
-    <button id="btn-copy" onClick={copyFunc1}>copy</button>
+    <div id='DisplayAndCopy'>
+      <p id="DisplayText"> {theFirstWord} {middleWord} {theMainWord}</p>
+      <button id="btn-copy" onClick={copyFunc1}> </button>
+    </div>
 </>
   )
 }

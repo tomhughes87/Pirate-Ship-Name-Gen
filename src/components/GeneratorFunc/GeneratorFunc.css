@@ -23,6 +23,9 @@ button{
     width: 40%;
 }
 
+.CompletelyRandomBtn{
+    margin: 2px;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
