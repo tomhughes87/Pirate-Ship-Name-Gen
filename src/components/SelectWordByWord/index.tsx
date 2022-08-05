@@ -62,7 +62,15 @@ export default function SelectWordByWord():JSX.Element {
 
   return (
 <>
+   <div id='DisplayAndCopy'>
+      <p id="DisplayText"> {theFirstWord} {middleWord} {theMainWord}</p>
+      <button id="btn-copy" onClick={copyFunc1}> </button>
+    </div>
   <form >
+
+
+
+
       {/* FIRST WORD */}
       {/* <label for="Prefixes">Prefixes</label> */}
       <select id="Prefixes" name="Prefixes" className='firstPart' defaultValue={"The"} onChange={event=>setTheFirstWord(event.target.value)}>
@@ -85,14 +93,11 @@ export default function SelectWordByWord():JSX.Element {
       {/* MAIN WORD */}
       <div id="BlockThis" className='thirdPart'>
         <input id='ScaledTextBox' type="text" value={theMainWord} onChange={event=> setTheMainWord(event.target.value)}/>
-        <button id="btn-randWord" onClick={getRandMain}>Random</button>
+        <button id="btn-randWord"  onClick={getRandMain}>Random</button>
       </div>
     </form>
 
-    <div id='DisplayAndCopy'>
-      <p id="DisplayText"> {theFirstWord} {middleWord} {theMainWord}</p>
-      <button id="btn-copy" onClick={copyFunc1}> </button>
-    </div>
+
 </>
   )
 }
