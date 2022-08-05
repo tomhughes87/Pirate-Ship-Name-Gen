@@ -54,7 +54,7 @@ console.log("Amount of mainWords:",mainWord.length);
           
         </div>
       
-      <br/>
+      {/* <br/> */}
       <Tip />
       </div>
       </header>

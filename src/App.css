@@ -8,7 +8,7 @@
   background-image: url('Sea-of-Thieves-Season-7-BG.jpeg');
   background-size: cover;
   background-color: #000000;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +47,7 @@ input{
   /* position: fixed; */
   color:  #00f89dae;  
   /* text-align: center; */
-  font-size: medium;
+  font-size: small;
   /* border-radius: 5px; */
   font-family: 'IM Fell English SC', Gill Sans;
   padding: 1%;
@@ -88,3 +88,12 @@ input{
 
 }
  
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #fakeModal{
+    margin-top: -20px;
+  }
+}
