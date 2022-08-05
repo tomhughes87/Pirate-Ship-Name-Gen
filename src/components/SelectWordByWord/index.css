@@ -97,7 +97,7 @@ input{
         /* right: 1px; */
         
         /* align-self: flex-end; */
-        border-radius: 0%;
+        border-radius: 25%;
         border-style: none;
         align-self: center;
         background-image: url('copy-icon.png');
