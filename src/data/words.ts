@@ -42,138 +42,160 @@ const startWord: string []=
 
 const midWord: string[] =
     [
-        //people
-        "King's",
-        "Queen's",
-        "Pricess's",
-        "Prince's",
-        "Footman's",
-        "Begger's",
-        "Emperor's",
+     "Admiral's", 
+    'Agressive',
+    'Aimless',
+    "Angel's", 
+    'Angry',
 
-        "Captian's",
-        "Admiral's",
-        "Master's",
-        "Chief's",
-        "Cook's",
-        "Watchmen's",
-        "Skipper's",
-        "Crewmate's",
-        "Gunner's",
-        "Loader's",
-
-        "Bachelor’s",
-        "Widower’s",
-        "Bride's",
-        "Groom's",
-        "Spinster's",
-        "Ol' Maid's",
-
-        "Seadog’s",
-        "Scally’s",
-        "Scallywag’s",
-
-        //Gods
-        "God's",
-        "Godly",
-        "Pious",
-        "Angel's",
-        "Zues's",
-        "Neptune's",
-        "Poseidon's",
-        "Gabriel's",
-        "Devil's",
-        "Devilish",
-        "Sinner's",
-        "Pope's",
+    'Bachelor’s', 
+    "Banker's",
+    'Battered',
+    "Bearded",
+    "Begger's", 
+    'Black', 
+    'Bloody', 
+    "Bloodthirsty",
+    'Biblical',
+    'Brave',
+    "Bride's",
+    'Bright',
+    'Broken',
+    'Bruised',
+    "Burning",
 
 
+    'Calm',
+    "Captian's",
+    "Chief's", 
+    'Confused', 
+    "Cook's", 
+    "Crew's",
+    "Crewmate's",
+    'Crooked',
+    'Crying',
+    "Cruel",
 
-        
-        //mosters & myths
-        "Kraken's",
-        "Mermaid's",
-        "Siren's",
+    "Dank",
+    "Damned",
+    'Dark', 
+    "Dead",
+    "Deadly",
+    'Depressed',
+    'Depressing',
+    "Dirty",
+    "Disgraced",    
+    "Devil's",
+    'Devilish',
+    'Drunken', 
+    'Dusty',
 
-        // colours + adjs
-        "Dark",
-        "Bright",
-        "Light",
-        "Black",
-        "White",
-        "Red",
-        "Golden",
-        "Tainted",
-        "Rusty",
-        "Battered",
-        "Bloody",
-        "Leaky",
-        "Floating",
-        "Leaking",
-        "Bruised",
-        "Sinking",
-        "Broken",
-        "Swift",
+    'Eastern',
+    "Emperor's",
+    'English', 
 
+    'Fat', 
+    'Flaoting', 
+    "Footman's", 
+    'Furious',
+    "Filthy",
 
-        //feelings:
-        "Jolly",
-        "Happy",
-        "Angry",
-        "Drunken",
-        "Furious",
-        "Ill",
-        "Sicky",
-        "Joyful",
-        "Calm",
-        "Agressive",
-        "Depressed",
-        "Depressing",
-        "Lost",
-        "Confused",
-        "Tired",
-        
-        "Scurvy ",
+    "Gabriel's", 
+    "God's", 
+    'Godly',
+    'Golden',
+    'Grog-Filled',
+    "Groom's", 
+    "Gunner's", 
 
+    'Happy', 
+    'Hateful',
+    'Hatefilled',
+    "Holy",
+    'Holey',
 
-        //place + country:
-        
-        "Londoner's",
-        "Liverpool's",
-        "English",
-        "Irish",
-        "Scottish",
-        "Welsh",
-        "Italian",
+    'Ill', 
+    'Irish',
+    'Italian',
 
-        // directionaly:
-        "Southern",
-        "Northern",
-        "Western",
-        "Eastern",
+    'Jolly',
+    'Joyful', 
 
-        //
-        "Pointless",
-        "Aimless",
-        "Useless",
-        "Brave",
-        "Shy",
-        "Sweet",
+    "King's", 
+    "Kraken's", 
 
-        //material
-        "Wooden",
-        "Silver",
-        "Stone",
+    'Laughing',
+    'Leaking',
+    'Leaky', 
+    'Light', 
+    "Liverpool's",
+    "Loader's",
+    "Londoner's",
+    'Lost', 
 
-        "Rum-Filled",
-        "Grog-Filled",
+    "Master's", 
+    "Mermaid's",
 
-        "Fat",
-        
+    "Neptune's",
+    'Northern', 
 
+    "Old Maid's",
 
-    ]
-    ;
+    'Peaceful',
+    'Pious', 
+    'Pointless',
+    "Pope's", 
+    "Poseidon's", 
+    "Pricess's", 
+    "Prince's",
+    "Pesty",    
+
+    "Queen's", 
+
+    "Rancid",
+    'Red',
+    'Rum-Filled', 
+    'Rummy', 
+    'Rum-Soaked', 
+    'Rusty', 
+
+    "scare",
+    'Scallywag’s',
+    'Scally’s', 
+    'Scottish',
+    'Screaming',
+    'Screeching',
+    'Scurvy ', 
+    'Seadog’s',
+    'Shy', 
+    'Sicky',
+    'Silver',
+    'Sinking', 
+    "Sinner's", 
+    "Siren's", 
+    "Skipper's", 
+    'Southern', 
+    'Sleeping',
+    "Spinster's",
+    'Stone', 
+    'Sweet', 
+    'Swift', 
+
+    'Tainted', 
+    'Tired',
+    'Twisted',
+
+    'Useless',
+
+    "Watchmen's",
+    'Welsh', 
+    'Western', 
+    'White', 
+    'Widower’s', 
+    'Wooden',
+
+    "Zues's"
+    ];
 
     const mainWord: string []=
     [
@@ -182,15 +204,21 @@ const midWord: string[] =
         "American",
         "Ascent",
         
-        "Breeze",
-        "Bully",
-        "Bill",
+        "Barnacle",
         "Bounty",
+        "Bill",
+        "Bully",
+        "Blade",
+        "Breeze",
         "Bucket",
         
         "Crow",
         "Crusher",
         "Coffin",
+        "Cavalier",
+        "Curse",
+        "Cutlass",
+        "Corpse",
         
         "Downfall",
         "Descent",
@@ -202,8 +230,13 @@ const midWord: string[] =
         "Defeat",
         "Destroyer",
         "Dog",
+        "Drake",
 
         "Englishman",
+
+        "Fiend",
+
+        "Jewel",
         
         "Fall",
         "Fancy",
@@ -212,9 +245,13 @@ const midWord: string[] =
         "Freedom",
         "Fortune",
         "Frenchman",
+        "Fame",
    
         "Hind",
         "Hunter",
+        "Head",
+
+        "Interceptor",
 
         // "Mist",
         "Landlubber",
@@ -226,6 +263,13 @@ const midWord: string[] =
         // "Gust",
         "Gull",
         "Grog",
+        "Grule",
+        "Gem",
+        "Ghost",
+        "Greedy",
+
+        "Merchant",
+        "Menace",
 
         "Pride",
         "Pearl",
@@ -234,25 +278,36 @@ const midWord: string[] =
         "Privateers",
         "Privateer",
         "Paddy",
-        
+        "Pillager",
+        "Pest",
         
         "Rise",
         "Rage",
+        "Raider",
         "Revenge",
         "Regret",
         "Ranger",
         "Rose",
+        "Reaper",
+        "Royal",
+        "Resolute", 
 
         "Spear",
         "Storm",
         "Seaman",
         "Sailor",
         "Seafarer",
+        "Shark",
         "Spaniard",
         "Scott",
         "Seadog",
+        "Sultana",
+        "Sea Serpent",
+        "Skull",
+        "Swashbucklers",
 
         "Trident",
+        "Terror",
         "Thorn",
         "Tomato",
         "Taveller",
@@ -262,14 +317,9 @@ const midWord: string[] =
         "Warth",
         "Wind",
         "Wanderer",
-
-
-
-
     ]
 
 
-    // startWord
 export {startWord,midWord,mainWord}
-// export {mainWord}
+
 
