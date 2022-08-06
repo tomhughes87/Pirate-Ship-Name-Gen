@@ -8,6 +8,7 @@
   background-image: url('Sea-of-Thieves-Season-7-BG.jpeg');
   background-size: cover;
   background-color: #000000;
+  overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
