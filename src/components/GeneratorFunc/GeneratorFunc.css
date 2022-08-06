@@ -1,7 +1,8 @@
 /* //same as mainword.css */
 
 button{
-    background-color: #00f89e;
+    /* background-color: #00f89e; */
+    background-color:#00f89dad; 
     color:  #000;
     text-align: center;
     font-size: medium;
@@ -31,7 +32,26 @@ button{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     button{
-        font-size: small;
+        font-size: xx-small;
+        /* width: 25px;
+        height: 25px; */
+
+        border-radius: 25%;
+        border-style: none;
+        align-self: center;
+        background-image: url('dice-icon.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position-x: center;
+        background-position-y: center;
+        width: 20px;
+        height: 20px;
+        padding-left: 2px;
+        margin-left: 3px;
+        margin-right: 3px;
+        color: rgba(69, 69, 165,0) ;
+        background-color:#00f89dad; 
     }
 
     #CompletelyRandomName{
@@ -56,7 +76,7 @@ button{
         text-align: center; */
         font-size: large;
 
-        width: 270px;
+        width: 200px;
     }
 }
 
@@ -71,7 +91,7 @@ button{
     text-align: center; */
     font-size: x-large;
 
-    /* width: 40px; */
+    width: 270px;
 }
 }
 
