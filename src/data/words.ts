@@ -218,6 +218,7 @@ const midWord: string[] =
 
         // "Mist",
         "Landlubber",
+        "Leviathan",
 
         "Outrage",
         
