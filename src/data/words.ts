@@ -108,7 +108,7 @@ const midWord: string[] =
         "Battered",
         "Bloody",
         "Leaky",
-        "Flaoting",
+        "Floating",
         "Leaking",
         "Bruised",
         "Sinking",
