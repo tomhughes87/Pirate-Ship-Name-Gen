@@ -6,19 +6,15 @@
     font-size: x-large;
     border-radius: 7px;
     font-family: 'IM Fell English SC', Gill Sans;
-    /* border-color: #00f89e; */
     border-color: #00f89d83;
     border-width: 1px;
     height: 50%;
     margin-left: 1px;
     margin-right: 1px;
-    /* padding-left: 13px ; */
     display: inline-block;
-    /* align-items: center; */
     margin:0;
      padding:0;
      text-align:center;
-    /* align-self: center; */
 }
 
 option{
@@ -29,9 +25,6 @@ option{
     display: inline-block;
     text-align: center;
     margin: 0 auto;
-    /* display: inline-block; */
-    /* vertical-align: middle; */
-    /* text-align: center; */
 }
 
 form{
@@ -42,34 +35,15 @@ form{
 
 }
 
-/* .firstPart{
-    grid-template-rows: [row1-start];
-} */
-/* 
-input{
-    background-color: #000000;
-    color:  #00f89e;
-    text-align: center;
-    font-size: x-large;
-    border-radius: 5px;
-    font-family: 'IM Fell English SC', Gill Sans;
-    display: contents   ;
-    border-color: #00f89e;
-    border-color: #00f89d83;
-  } */
-
   #BlockThis{
-    /* background-color: yellowgreen; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 0 auto; */
     margin-left: 1px;
     width:170px;
   }
 
   #ScaledTextBox{
-    /* min-width: 130px; */
     width: 120px;
     margin-left: 1px;
     margin-right: 1px;
@@ -94,14 +68,7 @@ input{
         width: 100px;
     }
     #btn-randWord{
-        /* font-size: small; */
-        
-        /* content: "&#62;"; */
-
         font-size: xx-small;
-        /* width: 25px;
-        height: 25px; */
-
         border-radius: 25%;
         border-style: none;
         align-self: center;
@@ -127,18 +94,12 @@ input{
   form{
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
     align-items: center;
-}
-
+    }
 }
 
 
 #btn-copy{
-        /* position: absolute; */
-        /* right: 1px; */
-        
-        /* align-self: flex-end; */
         border-radius: 25%;
         border-style: none;
         align-self: center;
@@ -164,20 +125,15 @@ input{
     @keyframes copy-Btn-click {
         0% { background-color: #000000;}
         100% { background-color:#00f89dad;}
-        /* background-color: #000000;
-        color:  #00f89e; */
       }
 
     #DisplayAndCopy{
         display: flex;
         flex-direction: row;
-        /* align-items: center; */
         margin: 0 auto;
         justify-content: center;
         align-content: center;
         height: 47px;
-        /* margin-top: -20ox; */
-        /* margin-bottom: -200ox; */
     }
 
     #DisplayText{
@@ -185,8 +141,6 @@ input{
         text-align: center;
         font-size: medium;
         align-self: center;
-
-        /* border-radius: 7px; */
         font-family: 'IM Fell English SC', Gill Sans;   
     }
 
@@ -196,7 +150,6 @@ input{
 @media only screen and (min-width: 600px) {
     #ScaledTextBox{
         font-size: large;
-        
     }
     #Prefixes{
         font-size: large;

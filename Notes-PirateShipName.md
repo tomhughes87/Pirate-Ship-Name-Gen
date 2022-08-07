@@ -51,11 +51,10 @@ noun's + noun
 
 how to:
 
-the + mid word + main word
+combo1: main word
 
-mid word + main word
+combo 2: the + mid word + main word
 
-the + main word
+combo 3: mid word + main word
 
-country tag before any of them..
-
+combo 4: the + main word

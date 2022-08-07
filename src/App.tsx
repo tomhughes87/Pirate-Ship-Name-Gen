@@ -9,7 +9,7 @@ import Tip from './components/Tip';
 import SelectWordByWord from './components/SelectWordByWord';
 
 import { midWord,mainWord } from './data/words';
-// import SortList from './data/Sort';
+import SortList from './data/Sort';
 
 function App() {
 <style>
@@ -25,7 +25,7 @@ console.log("Amount of mainWords:",mainWord.length);
 
       <header className="App-header">
       
-      {/* <SortList /> */}
+      <SortList />
       
       <div id="fakeModal">
       
@@ -34,19 +34,11 @@ console.log("Amount of mainWords:",mainWord.length);
         <Helper />
     
         <br/>
-          
-        {/* <div id='dashedBox'>
-          <FirstWord />
-          <MidWord />
-          <MainWord />
-        </div> */}
-
+        
         <div id='dashedBox'>
           <SelectWordByWord />          
         </div>
 
-          {/* <br/> */}
-          {/* <br/> */}
         <p id="Method"> ~ OR ~ </p>  
     
         <div id='dashedBoxLower'>
@@ -55,7 +47,6 @@ console.log("Amount of mainWords:",mainWord.length);
           
         </div>
       
-      {/* <br/> */}
       <Tip />
       </div>
       </header>

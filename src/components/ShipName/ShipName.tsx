@@ -1,7 +1,5 @@
 import React from 'react'
-// import { mainWord } from '../../data/words'
 
-// import FirstWord from '../FirstWord/FirstWord'
 import './ShipName.css'
 
 console.log("nothing")

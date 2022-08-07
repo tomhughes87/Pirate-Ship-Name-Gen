@@ -1,14 +1,10 @@
-
 #ShipName{
     background-color: #000000;
     color:  #00f89e;
     text-align: center;
     font-size: X-large;
-    /* border-radius: 5px; */
     font-family: 'IM Fell English SC', Gill Sans;
     margin-top: -20x;
-    /* display: contents   ; */
-    /* border-color: #00f89e; */
 }
 
 @media only screen and (max-width: 600px) {

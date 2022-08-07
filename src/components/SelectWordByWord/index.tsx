@@ -8,10 +8,6 @@ export default function SelectWordByWord():JSX.Element {
 
   //FIRST WORD
   let [theFirstWord,setTheFirstWord]= useState("The")
-  // function HandleDropDown() {
-  //   let copyFirstWord = (document.getElementById("Prefixes") as HTMLInputElement).value
-  //   setTheFirstWord(copyFirstWord)
-  // }
 
   // MID WORD
   let [middleWord,setMiddleWord]= useState(midWord[Math.floor(Math.random()*midWord.length)])
@@ -27,37 +23,8 @@ export default function SelectWordByWord():JSX.Element {
       setTheMainWord (mainWord[Math.floor(Math.random()*mainWord.length)]  )
   }
 
-  // const getFirstWord = document.getElementById("Prefixes")
-  // //copy
-  // copyButton1(){
-  //   // if (typeof getFirstWord === HTMLElement){
-  //   const copyWord = `${middleWord} ${theMainWord}`
-  //   copyToClipboard(copyWord)
-  // }
-
   function copyFunc1() {
-    /* Get the first things from drop down */
-    // let copyFirstWord = (document.getElementById("Prefixes") as HTMLInputElement).value
-    // console.log(copyFirstWord)
-    // copyFirstWord = copyFirstWord.options[copyFirstWord.selectedIndex].text 
-
-    
-
-
-  navigator.clipboard.writeText(`${theFirstWord} ${middleWord} ${theMainWord}`);
-
-  // var ecopyText= document.getElementById("ddlViewBy");
-// var value = e.value;
-// var text = ;
-    /* Select the text field */
-    // copyText!.select();
-    // copyText.setSelectionRange(0, 99999); /* For mobile devices */
-  
-     /* Copy the text inside the text field */
-    // navigator.clipboard.writeText(copyText.value);
-  
-    /* Alert the copied text */
-    // alert("Copied the text: " + copyText.value);
+    navigator.clipboard.writeText(`${theFirstWord} ${middleWord} ${theMainWord}`);
   }
 
   return (
@@ -66,11 +33,8 @@ export default function SelectWordByWord():JSX.Element {
       <p id="DisplayText"> {theFirstWord} {middleWord} {theMainWord}</p>
       <button id="btn-copy" onClick={copyFunc1}> </button>
     </div>
+    
   <form >
-
-
-
-
       {/* FIRST WORD */}
       {/* <label for="Prefixes">Prefixes</label> */}
       <select id="Prefixes" name="Prefixes" className='firstPart' defaultValue={"The"} onChange={event=>setTheFirstWord(event.target.value)}>
@@ -96,8 +60,6 @@ export default function SelectWordByWord():JSX.Element {
         <button id="btn-randWord"  onClick={getRandMain}>Random</button>
       </div>
     </form>
-
-
-</>
+  </>
   )
 }

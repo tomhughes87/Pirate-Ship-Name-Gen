@@ -197,7 +197,7 @@ const midWord: string[] =
     "Zues's"
     ];
 
-    const mainWord: string []=
+const mainWord: string []=
     [
         "Adventure",
         "Assualt",
@@ -318,8 +318,5 @@ const midWord: string[] =
         "Wind",
         "Wanderer",
     ]
-
-
+    
 export {startWord,midWord,mainWord}
-
-

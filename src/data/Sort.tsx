@@ -1,4 +1,3 @@
-// import { startWord, midWord, mainWord } from "./wordsnode";
 import React from 'react'
 import { startWord, midWord, mainWord } from "./words"
 
@@ -18,17 +17,17 @@ export default function SortList() {
     console.log("amtOfMainWords",amtOfMainWords)
 
     // valid combos:
-    let combo1 = amtOfMainWords //englishman
-    let combo2 = amtOfstatingWords * amtOfMainWords //the englishman
-    let combo3 = amtOfMidWords * amtOfMainWords //laughing englishman
-    let combo4 = amtOfstatingWords * amtOfMidWords * amtOfMainWords //the laughing englishman
+    let combo1 = amtOfMainWords //eg: englishman
+    let combo2 = amtOfstatingWords * amtOfMainWords //eg: the englishman
+    let combo3 = amtOfMidWords * amtOfMainWords //eg: laughing englishman
+    let combo4 = amtOfstatingWords * amtOfMidWords * amtOfMainWords //eg: the laughing englishman
 
     console.log("total unique ship names:",combo1+combo2+combo3+combo4)
 
 
     return (
         <>
-        <p>sorted</p>
+        {/* <p>sorted</p> */}
     </>
     )
 }
