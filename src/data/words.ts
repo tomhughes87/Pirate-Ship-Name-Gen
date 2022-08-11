@@ -42,7 +42,7 @@ const startWord: string []=
 
 const midWord: string[] =
     [
-     "Admiral's", 
+    "Admiral's", 
     'Agressive',
     'Aimless',
     "Angel's", 
@@ -107,6 +107,7 @@ const midWord: string[] =
     'Grog-Filled',
     "Groom's", 
     "Gunner's", 
+    "Greedy",
 
     'Happy', 
     'Hateful',
@@ -159,7 +160,7 @@ const midWord: string[] =
     'Rum-Soaked', 
     'Rusty', 
 
-    "scare",
+    "Scary",
     'Scallywag’s',
     'Scally’s', 
     'Scottish',
@@ -266,7 +267,7 @@ const mainWord: string []=
         "Grule",
         "Gem",
         "Ghost",
-        "Greedy",
+        "Greed",
 
         "Merchant",
         "Menace",
