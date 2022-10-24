@@ -1,0 +1,37 @@
+.AlertContainer{
+    height: 75px;
+    /* background-color: yellowgreen; */
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    margin-left: -100px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    animation-name: copyFade ;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+#FadingAlert-header{  
+    color: yellowgreen;
+    margin-top: -1px;
+    font-size: x-large;
+}
+
+#FadingAlert-copiedText{
+    color: aliceblue;
+    margin-top: -20px;
+}
+
+@keyframes copyFade{
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    100%{opacity: 0;
+        display: none;
+    }
+    /* 0% {background-color: blue;} */
+    /* 50% {nacl: 1;} */
+    /* 100%{background-color: red;} */
+}
