@@ -6,6 +6,6 @@ import './Logo.css';
 
 export default function Logo1() {
     return (
-    <img id="logo" src={logo1} alt="Logo" /> 
+    <img id="logo" src={logo1} alt="Logo" role='MyLogo'/> 
     )
 }
