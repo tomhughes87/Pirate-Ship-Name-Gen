@@ -2,14 +2,14 @@ import React from 'react'
 
 import './ShipName.css'
 
-console.log("nothing")
+// console.log("nothing")
 export default function ShipName() {
   const firstWord = document.getElementById('Prefixes')
-  console.log(firstWord)
+  // console.log(firstWord)
 
   return (
     <>
-    <div id='ShipName'>Ship Name Generator</div>    
+    <div id='ShipName' role=''>Ship Name Generator</div>    
     </>
   )
 }
